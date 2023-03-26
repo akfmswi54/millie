@@ -318,15 +318,14 @@ body {
 }
 #wrap > footer {
   width: 1280px;
-  height: 200px;
   margin: 0 auto;
   padding-bottom: 50px;
-  border-top: 1px solid #f5f5f5;
 }
 #wrap > footer > .footer-inner {
   max-width: var(--footer-width);
   margin: 0 auto;
-  padding: 24px 16px 32px;
+  padding: 30px 0px 10px 0px;
+  border-bottom: 1px solid #c4c4c4;
 }
 #wrap > footer > .footer-inner > h2 {
   font-weight: 700;
@@ -335,14 +334,15 @@ body {
   margin: 0;
 }
 #wrap > footer > .footer-inner > .sns {
-  margin-right: 100px;
   display: flex;
   position: absolute;
-  right: 10%;
+  right: 0;
 }
 #wrap > footer > .footer-inner > .sns > li {
   background-size: cover;
-  width: 20px;
+  width: 22px;
+  margin-left: 10px;
+  margin-top: -20px;
 }
 #wrap > footer > .footer-inner > .sns > li:nth-of-type(1) {
   background-image: url(./../images/sns-youtube.b399a84a750e221ded9fef98ddeca396.png);
@@ -364,6 +364,7 @@ body {
   background: url(./../images/down-arr.0b293f1f10f97e5a2a744710ef0d1133.png) 100% no-repeat;
   background-size: 12px;
   padding-right: 14px;
+  margin-top: 10px;
 }
 #wrap > footer > ul {
   display: flex;
